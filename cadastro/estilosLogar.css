@@ -1,0 +1,107 @@
+body {margin:0px;}
+					
+#logo	{width:305px;
+		height:320px;
+		margin-top:20px;
+		left:50%;
+		transform:translateX(-50%);
+		position:relative;
+		position:fixed;
+		float:left;
+		background-image:url(../figuras_selecionadas/logo.fw.png)}
+							
+					
+#CorpoBotoes	{	width:auto;
+					height:auto;
+					position:relative;
+					float:left;
+					left:50%;
+					top:54%;
+					transform:translateX(-50%);}				
+					
+.campoPreencher{ 	width:96%;
+					height:35px;
+					top:20px;
+					margin-top:5px;
+					float:left;
+					padding:10px;
+					font-family:'Buxton Sketch';
+					font-size:30px;
+					border:double 5px;
+					border-color:#FFF;
+					background-color: transparent;
+					border-radius: 5px;
+					transition:all 0.3s ease;
+					}	
+.campoPreencher:hover{ 	-webkit-transform: scale(0.95);
+					-ms-transform: scale(0.95);
+					 transform: scale(0.95);  }
+					
+::-webkit-input-placeholder {
+   color:#FFF;
+   padding: 10px;
+   
+}
+					
+#Entrar{width:auto;
+		height:50px;
+		float:right;
+		position:relative;
+		left:0%;
+		margin-top:5px;
+		cursor:pointer;
+		font-family:'Buxton Sketch';
+		background-color: transparent;
+		color:#FFFFFF;
+		font-size:30px;
+		border:double 5px;
+		border-color:transparent;
+		border-radius: 5px;
+		transition:all 0.3s ease;}	
+		
+#Entrar:hover{	
+	 	 color:#004000;
+	 	 -webkit-transform: scale(0.90);
+		 -ms-transform: scale(0.90);
+		 transform: scale(0.90);  }
+					
+#voltar{
+		width:auto;
+		cursor:pointer;
+		text-decoration:none;
+		height:40px;
+		line-height:45px;
+		font-family:'Buxton Sketch';
+		font-size:30px;
+		color:#FFFFFF;
+		margin-right:20px;
+		background-color:transparent;
+		float:right;
+		margin-top:6px;
+		border:double 5px;
+		border-color:transparent;
+		border-radius: 5px;
+		transition:all 0.3s ease;}
+		
+#voltar:hover{
+		color: #FF7373;
+		-webkit-transform: scale(0.90);
+		-ms-transform: scale(0.90);
+		transform: scale(0.90);  }
+					
+#botaoCadastro{
+		width:auto;
+		height:auto;
+		float:left;
+		margin-right:-5px;
+		font-size:25px;
+		font-family:'Buxton Sketch';
+		color:#FFF;
+		font-size:30px;
+		margin-top:15px;
+		transition:all 0.3s ease;}
+	
+#botaoCadastro:hover{
+	-webkit-transform: scale(0.90);
+	-ms-transform: scale(0.90);
+	transform: scale(0.90); }

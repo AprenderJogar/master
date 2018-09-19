@@ -1,0 +1,219 @@
+body{
+		overflow-x: hidden;
+}
+
+#corpoBotoesTopo{
+		width:100%;
+		height:90px;
+		float:left;
+		position:absolute;
+		border-style:solid;
+		border-width:2px;
+		border-color:#000;
+		background-color:#5E6F7F;}
+		
+#corpoResponsivoBotoes{
+		width:1200px;
+		height:90px;
+		background-color:transparent;
+		float:left;}
+		
+#LogoIcone{
+		width:80px;
+		height:90px;
+		float:left;
+		margin-top:2px;
+		position:absolute;
+		background-repeat:no-repeat;
+		background-position:center;
+		background-image:url(../figuras_selecionadas/LogoIcone.png);}
+		
+#corpoBotoesJogarRanking{	
+		width:700px;
+		height:46px;
+		position:relative;
+		float:left;
+		margin-left:250px;
+		top:50%;
+		transform:translateY(-50%);	
+		}
+		
+#botaoJogar{
+		width:201px;
+		height:45px;
+		position:relative;
+		text-align:center;
+		float:left;
+		font-family:'Buxton Sketch';
+		font-size:35px;
+		color:#FFF;
+		background-image:url(../figuras_selecionadas/botaoJogareRanking.png);}
+		
+#botaoRanking{
+		width:201px;
+		height:45px;
+		position:relative;
+		text-align:center;
+		float:left;
+		left: 5%;
+		font-family:'Buxton Sketch';
+		font-size:35px;
+		color:#FFF;
+		background-image:url(../figuras_selecionadas/botaoJogareRanking.png);}		
+
+#botaoRelatorio{
+		width:201px;
+		height:45px;
+		position:relative;
+		text-align:center;
+		float:left;
+		left:10%;
+		font-family:'Buxton Sketch';
+		font-size:35px;
+		color:#FFF;
+		background-image:url(../figuras_selecionadas/botaoJogareRanking.png);}	
+		
+#corpoBotoesEditarSair{
+		width:155px;
+		height:25px;
+		float:right;
+		position:relative;
+		top:50%;
+		transform:translateY(-50%);}
+#botaoEditar{
+		width:auto;
+		height:auto;
+		line-height:25px;
+		float:left;
+		color:#FFF;
+		font-size:25px;
+		font-family:"Comic Sans MS", cursive;
+		text-align:center;}		
+
+#botaoSair{
+		width:auto;
+		height:auto;
+		line-height:25px;
+		float:right;
+		color:#FFF;
+		font-size:25px;
+		font-family:"Comic Sans MS", cursive;
+		text-align:center;}
+		
+#boasVindas{
+		width:auto;
+		font-family:"Monotype Corsiva";
+		font-size:50px;
+		text-shadow:5px 5px 30px rgb(0,0,0);
+		color:#CAAD6C;
+		position:relative;
+		transform:translateX(-50%);
+		margin-top:1%;
+		float:left;
+		left:50%;}	
+		
+#fundoOpacidade{
+		width:100%;
+		min-height:700px;
+		float:left;
+		position:absolute;
+		margin-top:92px;
+		background-color:#000;
+		opacity:0.20;}	
+		
+#corpoBotaoPrimario{
+		width:700px;
+		height:150px;
+		float:left;
+		left:10%;
+		margin-top:15%;
+		position:absolute;}
+		
+#botaoPrimario{
+		width:320px;
+		height:120px;
+		position:relative;
+		float:left;
+		top:50%;
+		line-height:112px;
+		color:#CAAD6C;
+		text-align:center;
+		font-weight:bold;
+		transform:translateY(-50%);
+		font-family:"Comic Sans MS", cursive;
+		font-size:50px;
+		background-image:url(../figuras_selecionadas/botaoCategorias.png);}	
+		
+#desenhoPrimario{
+		width:174px;
+		height:140px;
+		float:right;
+		top:50%;
+		transform:translateY(-50%);
+		position:relative;
+		background-image:url(../figuras_selecionadas/desenhoPrimario.png);}
+		
+#corpoBotaoMedio{
+		width:700px;
+		height:150px;
+		float:right;
+		right:10%;
+		margin-top:30%;
+		position:absolute;}
+		
+#botaoMedio{
+		width:320px;
+		height:120px;
+		position:relative;
+		float:right;
+		top:50%;
+		line-height:112px;
+		color:#CAAD6C;
+		text-align:center;
+		font-weight:bold;
+		transform:translateY(-50%);
+		font-family:"Comic Sans MS", cursive;
+		font-size:50px;
+		background-image:url(../figuras_selecionadas/botaoCategorias.png);}
+
+#desenhoMedio{
+		width:272px;
+		height:88px;
+		float:left;
+		position:relative;
+		top:50%;
+		transform:translateY(-50%);
+		background-image:url(../figuras_selecionadas/desenhoMedio.png);}		
+		
+#corpoBotaoSuperior{
+		width:700px;
+		height:150px;
+		float:left;
+		left:10%;
+		margin-top:45%;
+		position:absolute;}	
+		
+#botaoSuperior{
+		width:320px;
+		height:120px;
+		position:relative;
+		float:left;
+		top:50%;
+		line-height:112px;
+		color:#CAAD6C;
+		text-align:center;
+		font-weight:bold;
+		transform:translateY(-50%);
+		font-family:"Comic Sans MS", cursive;
+		font-size:50px;
+		background-image:url(../figuras_selecionadas/botaoCategorias.png);}
+		
+#desenhoSuperior{
+		width:198px;
+		height:148px;
+		float:right;
+		position:relative;
+		top:50%;
+		transform:translateY(-50%);
+		background-image:url(../figuras_selecionadas/desenhoSuperior.png);}				
+		

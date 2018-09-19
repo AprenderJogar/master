@@ -1,0 +1,170 @@
+/*--------------------------------------- CORPO DO RELOGIO ----------------------------------------*/
+#contenedor{
+	margin: 5px auto;
+	width: 250px;
+	margin-left:350px;
+	height: auto;
+	float:left;
+}
+
+#corpoBotaoRelogio{
+		width:auto;
+		margin-left:550px;
+		height:auto;
+		position:absolute;
+		margin-top:13px;
+		float:left;}
+.reloj{
+	float: left;
+	font-size: 40px;
+	left:20px;
+	font-family: 'Buxton Sketch';
+	color: #FFF;
+}
+.boton{
+	border: 1px solid #363431;
+	color: white;
+	width: 80px;
+	height: 30px;
+	text-shadow: 0px -1px 1px black;
+	font-size: 20px;
+	position:relative;
+	border-radius: 5px;
+	font-family: 'Buxton Sketch';
+	cursor: pointer;
+	background-image: linear-gradient(#3aad02,#2c6f05);
+}
+.boton:active{
+	background-image: linear-gradient(#2c6f05,#3aad02);
+}
+.boton:hover{
+	box-shadow: 0px 0px 14px #3aad02;
+}		
+
+[draggable] {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  /* Required to make elements draggable in old WebKit */
+  -khtml-user-drag: element;
+  -webkit-user-drag: element;
+}
+.column {
+  height: 50px;
+  width: 100px;
+  float: left;
+  margin-right: 5px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: move;
+}
+
+
+.column.over {
+  background-color:#B6B6B6;
+}
+
+#fotoTopo{
+		top:8%;
+		width:400px;
+		height:253px;
+		position:relative;
+		background-image:url(img/bicicleta.png);
+		left:50%;
+		transform:translateX(-50%);
+	}
+	
+#campoParaArrastar{
+	top:60px;
+	width:490px;
+	height:55px;
+	position:relative;
+	left:51%;
+	transform:translateX(-50%);
+	}	
+	
+	
+.silaba{
+		width:100px;
+		height:50px;
+		background-color:transparent;
+		position:relative;
+		margin-left:5px;
+		margin-right:5px;
+		background-position:center;
+		border:medium solid #000;
+	
+	}
+	
+#corpoDasSilabas{
+		top:2%;
+		width:800px;
+		height:260px;
+		position:relative;
+		left:50%;
+		transform:translateX(-50%);
+		
+	}
+	
+#campoDasSilabasParaCompletar{
+	float:left;
+
+	width:590px;
+	position:relative;
+	left:50%;
+	transform:translateX(-50%);
+	margin-top:10%;}
+	
+#soltas{
+	margin-bottom:20px;
+	margin-right:9px;
+	margin-left:9px;}
+	
+#sair{
+		width:auto;
+		cursor:pointer;
+		text-decoration:none;
+		height:40px;
+		line-height:35px;
+		font-family:'Buxton Sketch';
+		font-size:30px;
+		color:#FFFFFF;
+		margin-right:312px;
+		background-color:transparent;
+		float:right;
+		margin-top:100px;
+		border:double 5px;
+		border-color:transparent;
+		border-radius: 5px;
+		transition:all 0.3s ease;}
+		
+#sair:hover{
+	color:#004000;
+	-webkit-transform: skewY();
+	-ms-transform: scale(0.90);
+	transform: scale(0.90)}
+
+#voltar{
+		width:auto;
+		cursor:pointer;
+		text-decoration:none;
+		height:40px;
+		line-height:35px;
+		font-family:'Buxton Sketch';
+		font-size:30px;
+		color:#FFFFFF;
+		margin-left:110px;
+		background-color:transparent;
+		float:left;
+		margin-top:100px;
+		border:double 5px;
+		border-color:transparent;
+		border-radius: 5px;
+		transition:all 0.3s ease;}
+		
+#voltar:hover{
+	color: #FF7373;
+	-webkit-transform: skewY();
+	-ms-transform: scale(0.90);
+	transform: scale(0.90)}	

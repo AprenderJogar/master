@@ -1,0 +1,65 @@
+@media (max-width: 768px) {
+.imagemFundo
+{
+    background-image: url(../figuras_selecionadas/fundo_parte02.jpg);
+    background-repeat: no-repeat;
+	background-size: 100%;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+}
+
+@media (min-width: 992px) {
+.imagemFundo
+{
+    background-image: url(../figuras_selecionadas/fundo_parte03.jpg);
+    background-repeat: no-repeat;
+	background-size: 100%;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+}
+
+@media (min-width: 1200px) {
+.imagemFundo
+{
+    background-image:url(../figuras_selecionadas/fundo.jpg);
+	background-size: 100%;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+	background-size: cover;
+}
+}

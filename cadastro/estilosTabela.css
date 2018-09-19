@@ -1,0 +1,53 @@
+
+#tabelaRelatorio{
+	position: absolute;
+	margin-top: 200px;
+	margin-left: 15%;
+	border-collapse: collapse;
+	width: 50em;
+	border: none;
+	opacity: 0.8;
+}
+
+#tabelaRelatorio thead{
+	border-bottom: #fff;
+	background: #000;
+}
+
+#tabelaRelatorio tr {
+	background-color: #000;
+	font-family:"Monotype Corsiva";
+	color: #fff;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#tabelaRelatorio tr:hover {
+  background-color: #CAAD6C;
+  color: #000;
+}
+
+#tabelaRelatorio thead tr:hover {
+  background-color: transparent;
+  color: #fff;
+  font-weight: bold;
+}
+
+#tabelaRelatorio tr:nth-child(even) {
+    background-color: #202020;
+}
+
+#tabelaRelatorio tr:nth-child(even):hover {
+    background-color: #CAAD6C;
+	color: #000;
+	font-weight: bold;
+}
+
+#tabelaRelatorio th {
+  font-weight: normal;
+  text-align: left;
+}
+
+#tabelaRelatorio th, td {
+  padding: 0.1em 1em;
+}

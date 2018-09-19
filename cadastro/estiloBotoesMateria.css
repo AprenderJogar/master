@@ -1,0 +1,150 @@
+body{
+		overflow-x: hidden;
+}
+
+#corpoBotoesTopo{
+		width:100%;
+		height:90px;
+		float:left;
+		position:absolute;
+		border-style:solid;
+		border-width:2px;
+		border-color:#000;
+		background-color:#5E6F7F;}
+		
+#corpoResponsivoBotoes{
+		width:1200px;
+		height:90px;
+		background-color:transparent;
+		float:left;}
+		
+#LogoIcone{
+		width:80px;
+		height:90px;
+		float:left;
+		margin-top:2px;
+		position:absolute;
+		background-repeat:no-repeat;
+		background-position:center;
+		background-image:url(../figuras_selecionadas/LogoIcone.png);}
+		
+#corpoBotoesJogarRanking{	
+		width:473px;
+		height:46px;
+		position:relative;
+		float:left;
+		margin-left:364px;
+		top:50%;
+		transform:translateY(-50%);	
+		}
+		
+#botaoJogar{
+		width:201px;
+		height:45px;
+		position:relative;
+		text-align:center;
+		float:left;
+		font-family:'Buxton Sketch';
+		font-size:35px;
+		color:#FFF;
+		background-image:url(../figuras_selecionadas/botaoJogareRanking.png);}
+		
+#botaoRanking{
+		width:201px;
+		height:45px;
+		position:relative;
+		text-align:center;
+		float:right;
+		font-family:'Buxton Sketch';
+		font-size:35px;
+		color:#FFF;
+		background-image:url(../figuras_selecionadas/botaoJogareRanking.png);}		
+		
+#corpoBotoesEditarSair{
+		width:155px;
+		height:25px;
+		float:right;
+		position:relative;
+		top:50%;
+		transform:translateY(-50%);}
+#botaoEditar{
+		width:auto;
+		height:auto;
+		line-height:25px;
+		float:left;
+		color:#FFF;
+		font-size:25px;
+		font-family:"Comic Sans MS", cursive;
+		text-align:center;}		
+
+#botaoSair{
+		width:auto;
+		height:auto;
+		line-height:25px;
+		float:right;
+		color:#FFF;
+		font-size:25px;
+		font-family:"Comic Sans MS", cursive;
+		text-align:center;}
+
+#fundoOpacidade{
+		width:100%;
+		min-height:700px;
+		float:left;
+		position:absolute;
+		margin-top:92px;
+		background-color:#000;
+		opacity:0.20;}
+
+#fonteTitulo {
+		width:auto;
+		font-family:"Comic Sans MS", cursive;
+		font-size:50px;
+		text-shadow:5px 5px 30px rgb(0,0,0);
+		color:#fff;
+		position:relative;
+		transform:translateX(-50%);
+		margin-top:1%;
+		float:left;
+		left:50%;
+}
+
+#quadroMaterias {
+		width:100%;
+		min-height:300px;
+		float:left;
+		position:absolute;
+		margin-top:92px;
+}
+
+#matematica {
+		width: 300px;
+		height: 200px;
+		float: left;
+		left: 5%;
+		position: relative;
+		margin-top: 12%;
+		background-image: url(/figuras_selecionadas/botaoMatematica.png);
+}
+
+#portugues {
+		width: 300px;
+		height: 200px;
+		float: left;
+		left: 12%;
+		position: relative;
+		margin-top: 12%;
+		background-image: url(/figuras_selecionadas/botaoPortugues.png);
+}
+
+#geografia {
+		width: 300px;
+		height: 200px;
+		float: left;
+		left: 20%;
+		position: relative;
+		margin-top: 12%;
+		background-image: url(/figuras_selecionadas/botaoGeografia.png);
+}
+
+

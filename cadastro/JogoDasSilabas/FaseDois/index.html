@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Jogo das Silabas</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="../../../estilosFundoPadaro.css" rel="stylesheet" type="text/css" />
+<link href="stilos.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="corpoInteiro">
+	<div id="corpoResponsivo">  
+       <div id="corpoBotaoRelogio">        
+            <input type="hidden" class="boton" id="inicio" value="" onclick="inicio();">
+            <input type="button" class="boton" id="parar" value="PAUSAR" onclick="parar();" disabled>
+            <input type="hidden" class="boton" id="continuar" value="Resume &#8634;" onclick="inicio();" disabled>
+            <input type="hidden" class="boton" id="reinicio" value="Reset &#8635;" onclick="reinicio();" disabled>
+        </div>
+			   <div id="contenedor">
+                    <div class="reloj" id="Horas" name"Horas">00</div>
+                    <div class="reloj" id="Minutos" name"Minutos">:00</div>
+                    <div class="reloj" id="Segundos" name"Segundos">:00</div>
+                    <div class="reloj" id="Centesimas" name="Centesimas">:00</div>
+   						<div id="resposta"></div>
+	  </div>
+    						<div id="fotoTopo"></div>
+    
+<div id="corpoDasSilabas">
+	<div id="campoParaArrastar">
+		<div id="columns">
+                <div class="column silaba" id="acertotres" name="acertotres" draggable="true"><header></header></div>
+                <div class="column silaba" id="acertoquatro" name="acertoquatro" draggable="true"><header></header></div>
+                <div class="column silaba" id="acertocinco" name="acertocinco" draggable="true"><header></header></div>
+                <div class="column silaba" id="acertoseis" name="acertoseis" draggable="true"><header></header></div>
+		</div>
+	</div>
+    
+       		<div id="campoDasSilabasParaCompletar">
+                <div id="columns">
+                    <div class="column" id="soltas" draggable="true"><header><img src="img/3.fw.png" /></header></div>
+                    <div class="column" id="soltas" draggable="true"><header><img src="img/10.fw.png" /></header></div>
+                    <div class="column" id="soltas" draggable="true"><header><img src="img/14.fw.png" /></header></div>
+                    <div class="column" id="soltas" draggable="true"><header><img src="img/9.fw.png" /></header></div>
+                    <div class="column" id="soltas" draggable="true"><header><img src="img/13.fw.png" /></header></div>
+                    <div class="column" id="soltas" draggable="true"><header><img src="img/8.fw.png" /></header></div>
+                    <div class="column" id="soltas" draggable="true"><header><img src="img/4.fw.png" /></header></div>
+                    <div class="column" id="soltas" draggable="true"><header><img src="img/7.fw.png" /></header></div>
+                    <div class="column" id="soltas" draggable="true"><header><img src="img/15.fw.png" /></header></div>
+                    <div class="column" id="soltas" draggable="true"><header><img src="img/6.fw.png" /></header></div>
+                    <div class="column" id="soltas" draggable="true"><header><img src="img/11.fw.png" /></header></div>
+                    <div class="column" id="soltas" draggable="true"><header><img src="img/1.fw.png" /></header></div>
+                    <div class="column" id="soltas" draggable="true"><header><img src="img/12.fw.png" /></header></div>
+                    <div class="column" id="soltas" draggable="true"><header><img src="img/2.fw.png" /></header></div>
+                    <div class="column" id="soltas" draggable="true"><header><img src="img/5.fw.png" /></header></div>
+                </div>
+       		</div>
+  		</div>
+                <a href="../index.html"><input type="button" name="btnvoltar" value="Voltar"  id="voltar"></a>
+               <input type="button" name="btnsair"      value="Sair"  id="sair"   onclick="sairdojogo();">
+ <div id="Resultado"></div>
+	</div>
+</div>
+ <script language="javascript" src="../script.js"></script>
+</body>
+</html>
