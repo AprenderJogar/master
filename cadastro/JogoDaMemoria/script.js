@@ -139,12 +139,12 @@ function cronometro () {
 	
 	
 	for(var i = 0; i < 28; i++){
-			var img = {
-					src: "img/"+ i +".jpg",
-					id: i%14
-				};
-				images.push(img);
-		}
+		var img = {
+			src: "img/"+ i +".jpg",
+			id: i%14
+		};
+		images.push(img);
+	}
 	
 	startGame();
 		function startGame(){
@@ -156,27 +156,27 @@ function cronometro () {
 			
 			
 			for(var i = 0; i < 14; i++){
-					frontFaces[i].classList.remove("flipped","match");
-					backFaces[i].classList.remove("flipped","match");
-				
-					var card = document.querySelector("#card" + i);
-					card.style.left = i % 7 === 0 ? 5 + "px" : i % 7 * 165 + 5 + "px";
-					card.style.top = i < 7 ? 5 + "px" : 160 + "px";
-													
-					card.addEventListener("click",flipCard,false);
-					frontFaces[i].style.background = "url('"+ images[i].src +"')";
-					frontFaces[i].setAttribute("id",images[i].id);
+				frontFaces[i].classList.remove("flipped","match");
+				backFaces[i].classList.remove("flipped","match");
+			
+				var card = document.querySelector("#card" + i);
+				card.style.left = i % 7 === 0 ? 5 + "px" : i % 7 * 105 + 5 + "px";
+				card.style.top = i < 7 ? 5 + "px" : 110 + "px";
+												
+				card.addEventListener("click",flipCard,false);
+				frontFaces[i].style.background = "url('"+ images[i].src +"')";
+				frontFaces[i].setAttribute("id",images[i].id);
 					
 					
-				} 
+			} 
 				
 				for(var i = 14; i < 28; i++){
 					frontFaces[i].classList.remove("flipped","match");
 					backFaces[i].classList.remove("flipped","match");
 					
 					var card = document.querySelector("#card" + i);
-					card.style.left = i % 21 === 0 ? 5 + "px" : i % 7 * 165 + 5 + "px";
-					card.style.top = i < 21 ? 315 + "px" : 470 + "px";
+					card.style.left = i % 21 === 0 ? 5 + "px" : i % 7 * 105 + 5 + "px";
+					card.style.top = i < 21 ? 215 + "px" : 320 + "px";
 													
 					card.addEventListener("click",flipCard,false);
 					frontFaces[i].style.background = "url('"+ images[i].src +"')";
@@ -214,8 +214,7 @@ function SomarPontos(){
 		pontos.innerHTML ="0"+contPontos;
 	}
 	
-		
-		}
+}
 		
 				
 	function flipCard(){
@@ -287,10 +286,8 @@ function SomarPontos(){
 		imgMatchSign.style.top = 250 + "px";
 		imgMatchSign.style.opacity = 1;
 		},1500);
-	}
-
-	
-	}());
+	}	
+}());
 	
 	
 	
