@@ -5,7 +5,7 @@
 	 $entrar = $_POST['entrar'];
 	 $senha = $_POST['senha'];
 	 
-	 $sql = "SELECT * FROM usuarios WHERE login = '$login' AND senha = '$senha'";
+	 $sql = "SELECT 1 FROM usuarios WHERE login = '$login' AND senha = '$senha'";
 	 $resultado = mysqli_query($connect, $sql) or die (mysql_error());
 	 $linhas = mysqli_num_rows($resultado);
 	 if($linhas > 0)
