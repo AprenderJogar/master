@@ -23,7 +23,7 @@
 					
 				<div id = "quadroMaterias">
 					
-					<a href = "JogoDaMemoria/index.html">
+					<a href = "JogoDaMemoria/index.php">
 						<div id = "matematica"></div>
 					</a>
 					
